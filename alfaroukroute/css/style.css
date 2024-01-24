@@ -1,0 +1,190 @@
+
+ 
+
+header{
+
+    background-image: url(../images/events-heavenly-header.jpg);
+    width: 100%;
+    height: 100vh;
+    background-size: cover;
+    background-position: center;
+    position: relative;
+    
+}
+
+
+.HomeOverlay{
+ 
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(214, 46, 51 , 0.6);
+  z-index: 0; 
+  
+}
+
+.home-content{
+  position: relative;
+  min-height: 100vh;
+  text-align: center;
+  color: white;
+  z-index: 1; 
+
+}
+
+.home-content span{
+
+  font-size:30px;
+  cursor:pointer;
+  position: absolute;
+  left:0;
+}
+
+
+
+#leftMenu {
+  height: 100%;
+  width: 0;
+  position: fixed;
+  z-index: 1;
+  top: 0;
+  left: 0;
+  background-color: #111;
+  overflow-x: hidden;
+  transition: 0.5s;
+  padding-top: 60px;
+}
+
+.sidenav .closebtn {
+  position: absolute;
+  top: 0;
+  right: 25px;
+  font-size: 36px;
+  margin-left: 50px;
+}
+
+.sidenav a {
+  padding: 20px 8px 20px 32px;
+  text-decoration: none;
+  font-size: 25px;
+  color: #818181;
+  display: block;
+  transition: 0.3s;
+  color: white;
+}
+
+.openNav {
+  transition: transform 0.5s ease; 
+}
+
+.openNav.shifted {
+  transform: translateX(250px); 
+  
+}
+
+.openNav:not(.shifted) {
+  transform: translateX(0);
+}
+
+.header-content.shifted {
+  transform: translateX(250px); /* Adjust this value based on your menu width */
+  transition: transform 0.5s ease; /* Adjust the duration and timing function (e.g., ease-in-out) */
+}
+
+
+
+/* <<<<<<<<<<<<<<<<<<<<<<  section 02 >>>>>>>>>>>>>>>>>>>>>>>>>> */
+
+#sliderDown h3 {
+  padding: 10px;
+  margin: 0;
+  background-color: rgba(214, 46, 51 , 0.6);
+  cursor: pointer;
+  color: white;
+}
+
+#sliderDown {
+  margin: 100px auto;
+  width: 50%;
+}
+
+
+#sliderDown .first {
+  display: block;
+}
+
+
+.inner{
+  padding: 10px;
+  background-color: #ccc;
+  display: none;
+}
+
+.active {
+  display: block;
+}
+
+.text-center {
+  text-align: center !important;
+}
+
+
+
+
+/* <<<<<<<<<<<<<<<<<<<<<< section 03 >>>>>>>>>>>>>>>>>>>>>>>>>> */
+
+
+
+#count{
+background-image: url(../images/invitation-2508607__340.jpg);
+height: auto;
+color: white;
+
+}
+
+.tim {
+  padding:50px;
+  border: 1px solid #FFF;
+  font-weight: 500;
+  font-size: 30px;
+}
+
+.count-overlay{
+
+  width: 100%;
+  height: auto;
+  background-color: rgba(214, 46, 51 , 0.6);
+}
+
+.social-list i{
+
+  border: 3px solid balck;
+}
+
+
+
+
+.social-list i {
+  font-size: 24px; 
+  width:35px;
+  height:35px;
+  margin: 0 5px; 
+  border: 1px solid black;
+  padding: 5px; 
+  
+}
+
+
+#contact-us form button {
+  background-color: #D62E33;
+  color: #fff;
+  padding: 10px 20px;
+  border-radius: 0;
+  text-transform: uppercase;
+}
+
+#contact-us .red{
+  color: #D62E33 !important;
+}
